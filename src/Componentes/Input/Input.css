@@ -1,0 +1,12 @@
+.input{
+    font-size: 34px; /*Tamanho da fonte*/
+    padding: 10px; /*Espaço de da esquerda pra direita e de cima pra baixo*/
+    border-radius: 20px; /*Borda*/
+    border: 2px solid #ccc; /*Grossura da borda*/
+    margin-left: 50px; /*Coloca mais para o lado direito*/
+}
+
+.movimentaTexto{
+    margin-left: 50px;
+}
+

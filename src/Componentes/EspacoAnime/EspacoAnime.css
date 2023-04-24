@@ -1,0 +1,28 @@
+.container {
+    display: flex; /*Elementos são espalhados de acordo com a quantidade*/
+    justify-content: center; /*centraliza o conteúdo horizontalente*/
+  }
+  
+  .anime-list {
+    display: flex;
+    flex-wrap: wrap; /*Quebra em linhas se tiver muitos elementos.*/
+    justify-content: center;
+  }
+  
+  .anime-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px;
+  }
+  
+  .poster-image {
+    width: 200px; /*Largura do elemento*/
+    height: 225px; /*Altura*/
+  }
+  
+  .anime-title {
+    margin-top: 8px; /*Margem do elemento para o de cima*/
+    text-align: center;
+    font-weight: bold; /*Fonte em negrito*/
+  }
